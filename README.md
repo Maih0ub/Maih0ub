@@ -4,10 +4,12 @@
 <div align="center">
 
 <!-- ===== Header ===== -->
-  <img src="assets/avatar.png" 
-       alt="Avatar" 
-       width="150" 
-       style="border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.3);">
+   <img 
+       src="assets/avatar.jpg" 
+       alt="Mohamed Mayhoub" 
+       width="180" 
+       style="border-radius: 50%; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);"
+  />
 
 # Hi, I'm Mohamed Mayhoub 👋
 **Ai & Software Engineer | Data Analyst**
@@ -49,10 +51,28 @@
 
 
 ---
-<!-- ===== GitHub Stats & Top Languages ===== -->
+<!-- =====  Featured Projects ===== -->
+ ### 🚀 Featured Projects
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Maih0ub&show_icons=true&theme=dark&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maih0ub&layout=compact&theme=dark" alt="Top Languages" />
+ 
+<p align="center">
+  <a href="https://github.com/Maih0ub/PowerBI-Sales-Performance-Dashboard">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Maih0ub&repo=PowerBI-Sales-Performance-Dashboard&theme=radical" alt="Sales Performance Analytics" />
+  </a>
+  <a href="https://github.com/Maih0ub/UK_Train_Rides">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Maih0ub&repo=UK_Train_Rides&theme=radical" alt="UK Train Rides" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Maih0ub/University-Housing-for-Al_azhar-university">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Maih0ub&repo=University-Housing-for-Al_azhar-university&theme=radical" alt="University Housing for Al-Azhar University" />
+  </a>
+  <a href="https://github.com/Maih0ub/Ai_Powered_Math_Teacher">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Maih0ub&repo=Ai_Powered_Math_Teacher&theme=radical" alt="AI Powered Math Teacher" />
+  </a>
+</p>
+
 </div>
 
 
