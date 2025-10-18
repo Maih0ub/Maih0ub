@@ -57,8 +57,9 @@
 <!-- ===== Trophies ===== -->
 ### 🐍 Contribution Snake
 <div align="center">
-  <img src="https://raw.githubusercontent.com/maih0ub/maih0ub/output/dist/github-contribution-grid-snake.svg" alt="GitHub contribution snake" />
+  <img src="https://raw.githubusercontent.com/Maih0ub/Maih0ub/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
+
 
 
 ---
