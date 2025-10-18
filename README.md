@@ -4,7 +4,7 @@
 <div align="center">
 
 <!-- ===== Header ===== -->
-<img src="assets/avatar.jpg" width="120" alt="avatar" style="border-radius:50%"/>
+<img src="assets/avatar.png" width="120" alt="avatar" style="border-radius:50%"/>
 
 # Hi, I'm Mohamed Mayhoub 👋
 **Ai & Software Engineer | Data Analyst | Technical Instructor**
