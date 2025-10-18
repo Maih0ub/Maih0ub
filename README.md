@@ -4,7 +4,7 @@
 <div align="center">
 
 <!-- ===== Header ===== -->
-<img src="assets/avatar.png" width="120" alt="avatar" style="border-radius:50%"/>
+<img src="assets/avatar.png" width="200" alt="avatar" style="border-radius:50%; box-shadow: 0 0 10px rgb(0,0,0,0,2);"/>
 
 # Hi, I'm Mohamed Mayhoub 👋
 **Ai & Software Engineer | Data Analyst | Technical Instructor**
@@ -55,13 +55,10 @@
 ---
 
 <!-- ===== Trophies ===== -->
+### 🐍 Contribution Snake
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Maih0ub&theme=onedark&column=7" alt="Trophies"/>
+  <img src="https://github.com/Maih0ub/Maih0ub/blob/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
-
----
-
-
 
 ---
 ### 📫 Connect with me
@@ -82,5 +79,5 @@
 
 <!-- ===== Footer ===== -->
 <div align="center">
-  <small>All Rights Reserved ©️ Mohamed Mayhoub <!-- use a script or action to update automatically --> </small>
+  <small>Mohamed Mayhoub ©️ All Rights Reserved<!-- use a script or action to update automatically --> </small>
 </div>
