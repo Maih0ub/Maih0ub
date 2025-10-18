@@ -1,0 +1,36 @@
+name: Generate Contribution Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # تشغيل يومي – UTC midnight
+  workflow_dispatch:      # تشغّله يدوياً من تبويب Actions
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate snake.svg
+        uses: Platane/snk@v3
+        with:
+          github_user_name: maih0ub
+          outputs: dist/github-contribution-grid-snake.svg
+
+      - name: Create output folder and move file
+        run: |
+          mkdir -p dist
+          ls -la
+          # (الملف يولد داخل dist من action Platane/snk)
+
+      - name: Push generated snake.svg to output branch
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update contribution snake"
+          file_pattern: "dist/**"
+          branch: output
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
