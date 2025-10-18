@@ -1,9 +1,9 @@
-name: Generate Contribution Snake
+name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # تشغيل يومي – UTC midnight
-  workflow_dispatch:      # تشغّله يدوياً من تبويب Actions
+    - cron: "0 0 * * *"  # runs once a day
+  workflow_dispatch:
 
 jobs:
   build:
@@ -11,26 +11,23 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
 
-      - name: Generate snake.svg
+      - name: Generate Snake SVG
         uses: Platane/snk@v3
         with:
-          github_user_name: maih0ub
+          github_user_name: Maih0ub
           outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Create output folder and move file
+      - name: Create output branch if not exists
         run: |
-          mkdir -p dist
-          ls -la
-          # (الملف يولد داخل dist من action Platane/snk)
+          git fetch
+          git checkout -B output
 
-      - name: Push generated snake.svg to output branch
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_message: "chore: update contribution snake"
-          file_pattern: "dist/**"
-          branch: output
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Push generated Snake SVG to output branch
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          mv dist/github-contribution-grid-snake.svg ./
+          git add github-contribution-grid-snake.svg
+          git commit -m "Generate snake animation" || echo "No changes to commit"
+          git push origin output --force
