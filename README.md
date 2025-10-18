@@ -4,10 +4,13 @@
 <div align="center">
 
 <!-- ===== Header ===== -->
-<img src="assets/avatar.png" width="200" alt="avatar" style="border-radius:50%; box-shadow: 0 0 10px rgb(0,0,0,0,2);"/>
+  <img src="assets/avatar.png" 
+       alt="Avatar" 
+       width="150" 
+       style="border-radius: 50%; box-shadow: 0 0 10px rgba(0,0,0,0.3);">
 
 # Hi, I'm Mohamed Mayhoub 👋
-**Ai & Software Engineer | Data Analyst | Technical Instructor**
+**Ai & Software Engineer | Data Analyst**
 
 [![Profile Views](https://komarev.com/ghpvc/?username=Maih0ub)](https://github.com/Maih0ub)
 
@@ -44,18 +47,17 @@
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </div>
 
----
 
+---
 <!-- ===== GitHub Stats & Top Languages ===== -->
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Maih0ub&show_icons=true&theme=dark&count_private=true" alt="GitHub Stats" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Maih0ub&layout=compact&theme=dark" alt="Top Languages" />
 </div>
 
----
 
+---
 <!-- ===== Trophies ===== -->
-### 🐍 Contribution Snake
 <div align="center">
   <img src="https://raw.githubusercontent.com/Maih0ub/Maih0ub/output/github-contribution-grid-snake.svg" alt="snake animation" />
 </div>
