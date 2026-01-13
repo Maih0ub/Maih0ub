@@ -56,18 +56,22 @@
 <div align="center">
  
 <p align="center">
+   <h4>Sales Performance Analystics</h4>
   <a href="https://github.com/Maih0ub/PowerBI-Sales-Performance-Dashboard">
     <img src="https://github.com/Maih0ub/Maih0ub/blob/main/assets/9362298.png" highet ="400" width="400" alt="Sales Performance Analytics" />
   </a>
+   <h4>UK Train Rides Analysis</h4>
   <a href="https://github.com/Maih0ub/UK_Train_Rides">
     <img src="https://github.com/Maih0ub/Maih0ub/blob/main/assets/1765827088265.jpg" highet ="400" width="400" alt="UK Train Rides" />
   </a>
 </p>
 
 <p align="center">
+   <h4>Al Azhar University Housing</h4>
   <a href="https://github.com/Maih0ub/University-Housing-for-Al_azhar-university">
     <img src="https://github.com/Maih0ub/Maih0ub/blob/main/assets/An%20infographic-style%20illustration%20of%20a%20universi....png" alt="University Housing for Al-Azhar University" highet ="400" width="400" />
   </a>
+   <h4>Ai Powered Math Teacher</h4>
   <a href="https://github.com/Maih0ub/Ai_Powered_Math_Teacher">
     <img src="https://github.com/Maih0ub/Maih0ub/blob/main/assets/math1.png" highet ="400" width="400" alt="AI Powered Math Teacher" />
   </a>
